@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네트워크/SECTION_1.md",
+                "file": "Network (네트워크).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/SECTION_1.md",
+                "file": "Network (네트워크).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/SECTION_1.md",
+                "file": "Network (네트워크).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/SECTION_1.md"
+                "file": "Network (네트워크).md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "c50ee35f4f746730",
   "lastOpenFiles": [
-    "Network (네트워크).md",
     "네트워크/SECTION_1.md",
+    "Network (네트워크).md",
     "'네트워크'/'네트워크.md",
     "'네트워크'",
     "옵시디언 사용법.md",
