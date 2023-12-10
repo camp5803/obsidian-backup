@@ -13,6 +13,9 @@ def push(self, value):
 	self.heapifyUp
 
 def pop(self):
-	self.heap.pop()
-	
+	root = self.heap[0] // Heap의 마지막 값을 임시 저장
+	self.heap[0] = self.heap.pop() // 
+	self.heapifyDown()
+	return root
 ```
+
