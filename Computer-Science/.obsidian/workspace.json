@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "data_structure/Heap.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "data_structure/Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "data_structure/Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/Tree.md"
+                "file": "data_structure/Heap.md"
               }
             }
           }
@@ -157,17 +157,17 @@
   },
   "active": "e4838b75750f0b6d",
   "lastOpenFiles": [
+    "Data Structure.md",
+    "Algorithm.md",
+    "data_structure/Heap.md",
+    "data_structure/Tree.md",
     "data_structure/StackAndQueue.md",
     "data_structure/ArrayAndLinkedList.md",
     "data_structure/Btree.md",
-    "data_structure/Heap.md",
-    "data_structure/Tree.md",
     "image/tree.png",
     "image/bst.png",
     "image/stack1.png",
     "image/queue1.png",
-    "Data Structure.md",
-    "Algorithm.md",
     "Pasted image 20231211043820.png",
     "queue1.png",
     "image",
