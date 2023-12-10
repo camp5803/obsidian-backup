@@ -26,7 +26,7 @@ typedef struct {
 } arrayListType;
 ```
 
-`ArrayList`는 `Array`를 기반으로 구현한 List이기 때문에 `Array`의 모든 특성을 가진다. 
+`ArrayList`는 `Array` 기반으로 구현한 List이기 때문에 `Array`의 모든 특성을 가진다. 
 
 #### ArrayList로 인덱싱을 하는 경우
 
@@ -91,4 +91,49 @@ typedef struct ListNode {
 } ListNode;
 ```
 
-LinkedList는 
+`LinkedList`는 포인터 기반으로 구현된 자료구조이다. 원소와 포인터만 존재하는 구조로 여러 가지의 `ListNode`가 모여 하나의 `LinkedList`가 된다.
+
+#### LinkedList로 삽입 또는 삭제를 하는 경우
+
+```c
+ListNode *insert_first(ListNode *head, int value) {
+    ListNode *p = (ListNode *)malloc(sizeof(ListNode));
+    p->data = value;
+    p->link = head;
+    head = p;
+    return head;
+}
+
+ListNode *insert(ListNode* head, ListNode *pre, element value) {
+    ListNode *p = (ListNode *)malloc(sizeof(ListNode));
+    p->data = value;
+    p->link = pre->link;
+    pre->link = p;
+    return head;
+}
+
+ListNode *delete_first(ListNode *head) {
+    ListNode *removed;
+    if (head == NULL) return NULL;
+    removed = head;
+    head = removed->link;
+    free(removed);
+    return head;
+}
+```
+
+`LinkedList`는 `Array`와 다르게 유동적으로 사용할 수 있는 자료구조인데, 필요할 때마다 새로운 노드를 생성하여 붙일 수도 있고 노드를 제거할 수도 있다. 
+
+연결을 통하여 구현된 구조이기 때문에 원소를 넣고자 하는 위치에 있는 노드의 연결을 끊고 새로운 노드에 연결을 하면 끝이며, 삭제의 경우에도 마찬가지로 삭제할 노드의 연결을 끊고 `free()`하면 되기 때문에 간단하다. 이 경우 `O(1)`의 시간 복잡도를 가진다.
+
+#### LinkedList로 인덱싱을 하는 경우
+
+`LinkedList`는 `ArrayList`와 다르게 순서는 존재하나 인덱스가 존재하지 않는다. 즉, 인덱싱이 불가능하다는 것이다. 
+그래서 조회의 경우에는 특정 원소를 찾는 방법으로 조회가 가능하며, 최악의 경우에는 모든 노드를 확인하여야 하기 때문에 `O(N)`의 시간 복잡도를 가질 수 밖에 없다.
+
+#### LinkedList의 문제점
+
+이론적으로는 목적에 따라 `LinkedList`
+
+#### 결론
+
