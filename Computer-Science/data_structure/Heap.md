@@ -25,17 +25,44 @@ def heapifyDown(self):
 	while True:
 		leftChildIndex = 2 * index + 1
 		rightChildIndex = 2 * index + 2
+		
 		smallest = index
-		if left_child_index < len(self.heap) 
-		and self.heap[left_child_index] < self.heap[smallest]:
+		if (left_child_index < len(self.heap) and
+		   self.heap[left_child_index] < self.heap[smallest]):
 			smallest = left_child_index 
-		if right_child_index < len(self.heap) 
-		and self.heap[right_child_index] < self.heap[smallest]: 
+			
+		if (right_child_index < len(self.heap) and
+		    self.heap[right_child_index] < self.heap[smallest]): 
 			smallest = right_child_index 
+			
 		if smallest != index: 
-			self.heap[index], self.heap[smallest] =
-			self.heap[smallest], self.heap[index] 
+			self.heap[index], self.heap[smallest] = self.heap[smallest], self.heap[index] 
 			index = smallest 
 		else: 
 			break
 ```
+
+`pop` 메소드를 호출했을 때, 동작하는 `heapifyDown` 메소드는 위와 같다. 단계적으로 살펴보면,
+
+```python
+# pop method
+self.heap[0] = self.heap.pop()
+```
+
+`Heap`의 마지막 원소를 루트로 이동시킨다.
+
+```python
+# 이하 heapifyDown
+index = 0
+```
+
+루트로 이동한 마지막 원소를 `index` 변수에 담아, 초기 타겟으로 한다. 이 `index`는 아래 동작에 따라 변경된다.
+
+```python
+while True:
+	leftChildIndex = 2 * index + 1
+	rightChildIndex = 2 * index + 2
+```
+
+위에서 타겟으로 한 `index`의 자식 노드들의 `index`를 저장한다.
+
