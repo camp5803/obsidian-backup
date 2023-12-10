@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure.md",
+                "file": "Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structure.md",
+                "file": "Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structure.md",
+                "file": "Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure.md"
+                "file": "Algorithm.md"
               }
             }
           }
@@ -169,9 +169,9 @@
   },
   "active": "0eeba60665d54aec",
   "lastOpenFiles": [
+    "Data Structure.md",
     "Algorithm.md",
     "data_structure/List.md",
-    "Data Structure.md",
     "algorithm",
     "data_structure",
     "Network (네트워크).md",
