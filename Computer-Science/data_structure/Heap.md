@@ -27,13 +27,13 @@ def heapifyDown(self):
 		rightChildIndex = 2 * index + 2
 		
 		smallest = index
-		if (left_child_index < len(self.heap) and
-		   self.heap[left_child_index] < self.heap[smallest]):
-			smallest = left_child_index 
+		if (leftChildIndex < len(self.heap) and
+		   self.heap[leftChildIndex] < self.heap[smallest]):
+			smallest = leftChildIndex 
 			
-		if (right_child_index < len(self.heap) and
-		    self.heap[right_child_index] < self.heap[smallest]): 
-			smallest = right_child_index 
+		if (rightChildIndex < len(self.heap) and
+		    self.heap[rightChildIndex] < self.heap[smallest]): 
+			smallest = rightChildIndex 
 			
 		if smallest != index: 
 			self.heap[index], self.heap[smallest] = self.heap[smallest], self.heap[index] 
@@ -64,5 +64,36 @@ while True:
 	rightChildIndex = 2 * index + 2
 ```
 
-위에서 타겟으로 한 `index`의 자식 노드들의 `index`를 저장한다.
+위에서 타겟으로 한 `index`의 자식 노드들의 `index`를 계산하여 저장한다.
+
+```python
+smallest = index
+if (leftChildIndex < len(self.heap) and
+	self.heap[leftChildIndex] < self.heap[smallest]):
+	smallest = leftChildIndex 
+			
+if (rightChildIndex < len(self.heap) and
+	self.heap[rightChildIndex] < self.heap[smallest]): 
+	smallest = rightChildIndex 
+```
+
+계산한 자식 노드들의 `index`가 유효한지 검사한 이후, 현재 인덱스, 왼쪽 자식의 인덱스, 오른쪽 자식의 인덱스 중 가장 작은 값의 인덱스를 `smallest`에 저장한다.
+
+```python
+if smallest != index: 
+			self.heap[index], self.heap[smallest] = self.heap[smallest], self.heap[index] 
+			index = smallest
+else:
+	break
+```
+
+위에서 비교했던 결과와 `index`를 비교하여 같지 않은 경우에 `smallest`에 위치하는 값과 `index`에 위치하는 값의 위치를 변경한다. 
+
+	smallest와 index를 비교하는 이유는 만약 같다면 이미 정렬이 된 상태이기 때문. (loop의 끝)
+
+`heapifyUp`은 위와 반대로, 아래부터 올라가는 방식으로 정렬을 진행한다.
+
+위와 같은 방식으로 `Heap`은 자체적으로 정렬을 해서 자기 자신의 조건사항(`Max Heap` 또는 `Min Heap`의 성질)을 충족시킨다.
+
+
 
