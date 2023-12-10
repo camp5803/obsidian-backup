@@ -31,7 +31,18 @@
 
 `Binary Search Tree (이진 탐색 트리)`는 기존의 `Binary Search`가 동작할 수 있도록 구현된 자료구조다. 간단하게 보면 깊이에 상관 없이 맨 왼쪽 노드가 가장 작고, 맨 오른쪽 노드가 가장 크다. 
 
-	이진 탐색 트리의 원소의 크기
+	BST의 원소의 크기
 	왼쪽 자신 노드 < 부모 노드 < 오른쪽 자식 노드
 
 위의 조건을 지키면 위 사진과 같은 모양의 `Tree`를 얻을 수 있다.
+
+`BST`는 삽입, 삭제, 조회의 모든 과정에서 `Binary Search`가 가능하여 트리의 높이 만큼만 순회하기 때문에 최악의 경우 `O(logN)`의 시간 복잡도를 가질 수 있다. 예외적으로 일반적인 `Tree`의 구조가 아니라 `Skewed Binary Tree`의 구조에서는 최악의 경우 `O(N)`의 시간 복잡도를 가진다.
+
+### 이외에 다양한 Binary Tree들
+
+- `Full Binary Tree(정 이진 트리)`는 모든 노드가 0개 또는 2개의 자식 노드를 가진다.
+- `Complete Binary Tree(완전 이진 트리)`는 마지막 레벨을 제외하고 모든 레벨이 채워져 있다.
+- `Complete Binary Search Tree(완전 이진 탐색 트리)`는 `Binary Search Tree`의 조건을 지킨 `Complete Binary Tree`이다.
+- `Perfect Binary Tree(포화 이진 트리)`는 모든 노드가 2개의 자식을 가지고, 동일한 깊이를 가진다.
+- `Skewed Binary Tree`는 모든 노드가 왼쪽에만 있거나 오른쪽에만 있다. `LinkedList`와 유사하다고 볼 수 있다.
+
