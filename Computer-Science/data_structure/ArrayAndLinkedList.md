@@ -78,6 +78,7 @@ element delete(arrayListType *L, int pos) {
 
 이 경우엔 최악의 경우 `O(N)`의 시간 복잡도를 가지기 때문에 조회보다는 삽입이나 삭제가 빈번한 경우에는 `Array`가 아닌 다른 자료구조를 사용하는 편이 좋다.
 
+
 #### LinkedList의 구현
 
 ```c
