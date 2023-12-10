@@ -44,5 +44,5 @@
 - `Complete Binary Tree(완전 이진 트리)`는 마지막 레벨을 제외하고 모든 레벨이 채워져 있다.
 - `Complete Binary Search Tree(완전 이진 탐색 트리)`는 `Binary Search Tree`의 조건을 지킨 `Complete Binary Tree`이다.
 - `Perfect Binary Tree(포화 이진 트리)`는 모든 노드가 2개의 자식을 가지고, 동일한 깊이를 가진다.
-- `Skewed Binary Tree`는 모든 노드가 왼쪽에만 있거나 오른쪽에만 있다. `LinkedList`와 유사하다고 볼 수 있다.
-
+- `Skewed Binary Tree(편향 이진 트리)`는 모든 노드가 왼쪽에만 있거나 오른쪽에만 있다. `LinkedList`와 유사하다고 볼 수 있다.
+- `Balanced Binary Tree(균형 이진 트리)`는 루트 노드 기준으로 왼쪽과 오른쪽 `Tree`의 높이 차이가 1만큼 난다.
