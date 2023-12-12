@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/Btree.md",
+                "file": "data_structure/Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/Btree.md",
+                "file": "data_structure/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/Btree.md",
+                "file": "data_structure/Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/Btree.md"
+                "file": "data_structure/Tree.md"
               }
             }
           }
@@ -157,13 +157,17 @@
   },
   "active": "e4838b75750f0b6d",
   "lastOpenFiles": [
-    "Data Structure.md",
+    "data_structure/ArrayAndLinkedList.md",
     "data_structure/Btree.md",
-    "Algorithm.md",
     "data_structure/StackAndQueue.md",
     "data_structure/Heap.md",
-    "data_structure/ArrayAndLinkedList.md",
+    "etc/~$btree.pptx",
     "data_structure/Tree.md",
+    "etc/btree.pptx",
+    "etc",
+    "새 폴더",
+    "Data Structure.md",
+    "Algorithm.md",
     "image/b-tree2.png",
     "image/b-tree1.png",
     "image/tree.png",
@@ -173,7 +177,6 @@
     "Pasted image 20231211043820.png",
     "queue1.png",
     "image",
-    "새 폴더",
     "Pasted image 20231211032545.png",
     "data_structure/List.md",
     "algorithm",
