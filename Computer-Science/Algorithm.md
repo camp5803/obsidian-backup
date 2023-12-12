@@ -1,9 +1,9 @@
 
 -  Greedy
 -  Implement
--  DFS/BFS
 -  Sort
--  Binary Search
+-  DFS/BFS
 -  Dynamic Programming
+-  Divide and Conquer
+-  Binary Search
 -  Shortest Path
--  Graph Search

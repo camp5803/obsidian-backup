@@ -5,4 +5,3 @@
 -  [Heap](./data_structure/Heap.md)
 -  [B Tree, B+Tree](./data_structure/Btree.md)
 -  [Hash Table](./data_structure/HashTable.md)
--  [Graph](./data_structure/Graph.md)
