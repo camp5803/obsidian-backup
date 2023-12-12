@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c50ee35f4f746730",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "e4838b75750f0b6d",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,11 +148,14 @@
   },
   "active": "e4838b75750f0b6d",
   "lastOpenFiles": [
-    "data_structure/Tree.md",
-    "data_structure/Btree.md",
-    "data_structure/B+tree.md",
-    "etc/~$btree.pptx",
+    "data_structure/HashTable.md",
     "Data Structure.md",
+    "data_structure/Btree.md",
+    "image/b-tree1.png",
+    "image/b-tree2.png",
+    "data_structure/B+tree.md",
+    "data_structure/Tree.md",
+    "etc/~$btree.pptx",
     "Algorithm.md",
     "image/bst.png",
     "data_structure/ArrayAndLinkedList.md",
@@ -170,8 +164,6 @@
     "etc/btree.pptx",
     "etc",
     "새 폴더",
-    "image/b-tree2.png",
-    "image/b-tree1.png",
     "image/tree.png",
     "image/stack1.png",
     "image/queue1.png",
