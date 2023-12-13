@@ -44,4 +44,13 @@
 
 ### Table resizing
 
-만약, `Hash Table`이 과부하 되는 경우에는 `capacity`를 늘리기 위한 재생성이 필요한데, 이 경우 
+만약, `Hash Table`이 과부하 되는 경우에는 `capacity`를 늘리기 위한 재생성이 필요한데, 이 경우 데이터의 이전 작업을 할 때 구현한 방식에 따라서 다르게 동작할 수 있다.
+
+`Open addressing`의 경우에는 `Hash Table`에 `key-value`만 저장하는 게 아니라 데이터를 저장할 때 계산했던 `hash`도 포함하여 계산한다. 그렇기에 `resize` 과정에서 이미 계산했던 `hash`를 통하여 `hash % capacity`를 계산하여 재배열 한다. 
+
+하지만 `Separate chaining`의 경우에는 구현에 따라 다시 `hash`를 계산하고 그 값을 가지고 `hash % capacity`를 계산하여 재배열 할 수도 있다. 
+
+![](../image/hashtable.png)
+*자료 출처: [Youtube] 쉬운코드 - [맵(map)과 해시 테이블(hash table) 핵심만 모아보기! 맵과 해시 테이블(a.k.a 해시 맵)을 20분간 아주아주아주 알차게 설명합니다!!](https://www.youtube.com/watch?v=ZBu_slSH5Sk)*
+
+사용하는 언어에 따라서 위와 같이 구현 방식이 다 다르므로 본인이 사용하는 언어는 어떻게 구현했는지 알아보면 도움이 될 수 있다.
