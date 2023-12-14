@@ -1,5 +1,5 @@
 
--  Greedy
+-  [Greedy](/algorithm/Greedy.md)
 -  Implement
 -  Sort
 -  DFS/BFS
