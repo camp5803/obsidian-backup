@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/HashTable.md",
+                "file": "Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/HashTable.md",
+                "file": "Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/HashTable.md",
+                "file": "Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/HashTable.md"
+                "file": "Algorithm.md"
               }
             }
           }
@@ -150,18 +150,18 @@
   "lastOpenFiles": [
     "Data Structure.md",
     "Algorithm.md",
+    "data_structure/Btree.md",
+    "data_structure/Heap.md",
+    "data_structure/Tree.md",
+    "data_structure/StackAndQueue.md",
     "data_structure/HashTable.md",
     "image/hashtable.png",
-    "data_structure/Tree.md",
-    "data_structure/Btree.md",
     "image/b-tree1.png",
     "image/b-tree2.png",
     "data_structure/B+tree.md",
     "etc/~$btree.pptx",
     "image/bst.png",
     "data_structure/ArrayAndLinkedList.md",
-    "data_structure/StackAndQueue.md",
-    "data_structure/Heap.md",
     "etc/btree.pptx",
     "etc",
     "새 폴더",
