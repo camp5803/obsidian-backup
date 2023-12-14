@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm.md",
+                "file": "algorithm/Greedy.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Greedy.md",
+                "file": "data_structure/Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,16 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5138476636993596",
+  "active": "e4838b75750f0b6d",
   "lastOpenFiles": [
     "Algorithm.md",
+    "data_structure/Tree.md",
+    "data_structure/Heap.md",
+    "data_structure/HashTable.md",
+    "data_structure/Btree.md",
     "algorithm/Greedy.md",
     "Data Structure.md",
-    "data_structure/Btree.md",
-    "data_structure/Heap.md",
-    "data_structure/Tree.md",
     "data_structure/StackAndQueue.md",
-    "data_structure/HashTable.md",
     "image/hashtable.png",
     "image/b-tree1.png",
     "image/b-tree2.png",
