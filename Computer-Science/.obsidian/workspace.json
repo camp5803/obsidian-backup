@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Greedy.md",
+                "file": "algorithm/DFS_BFS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structure.md",
+                "file": "algorithm/DFS_BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structure.md",
+                "file": "algorithm/DFS_BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure.md"
+                "file": "algorithm/DFS_BFS.md"
               }
             }
           }
@@ -158,19 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4838b75750f0b6d",
+  "active": "5138476636993596",
   "lastOpenFiles": [
-    "algorithm/DFS_BFS.md",
-    "Algorithm.md",
     "algorithm/Implementation.md",
     "algorithm/Greedy.md",
+    "Data Structure.md",
+    "algorithm/DFS_BFS.md",
+    "Algorithm.md",
     "data_structure/Heap.md",
     "data_structure/HashTable.md",
     "data_structure/StackAndQueue.md",
     "data_structure/ArrayAndLinkedList.md",
     "data_structure/Btree.md",
     "data_structure/Tree.md",
-    "Data Structure.md",
     "image/hashtable.png",
     "image/b-tree1.png",
     "image/b-tree2.png",
