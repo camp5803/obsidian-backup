@@ -17,6 +17,42 @@
 
 1 -> 2 -> 7 -> 6 -> 8 -> 3 -> 4 -> 5 순으로 방문한다. (이웃 노드가 여러 개이면 가장 작은 수를 먼저 선택한다는 기준)
 
+```python
+graph = [  
+    [],  
+    [2, 3, 8],  
+    [1, 7],  
+    [1, 4, 5],  
+    [3, 5],  
+    [3, 4],  
+    [7],  
+    [2, 6, 8],  
+    [1, 7]  
+]  
+visited = [False] * 9  
+  
+  
+def dfs(graph, v, visited):  
+    visited[v] = True  
+    print(v)  
+    for i in graph[v]:  
+        if not visited[i]:  
+            dfs(graph, i, visited)  
+  
+  
+dfs(graph, 1, visited)
+# 1
+# 2
+# 7
+# 6
+# 8
+# 3
+# 4
+# 5
+```
 
+위 그래프 탐색 과정을 구현하면 위와 같다.
 
 ## BFS
+
+`BFS`
