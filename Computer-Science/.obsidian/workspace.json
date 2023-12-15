@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Greedy.md",
+                "file": "algorithm/Implement.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/Greedy.md",
+                "file": "algorithm/Implement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/Greedy.md",
+                "file": "algorithm/Implement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/Greedy.md"
+                "file": "algorithm/Implement.md"
               }
             }
           }
@@ -161,12 +161,13 @@
   "active": "e4838b75750f0b6d",
   "lastOpenFiles": [
     "Algorithm.md",
+    "Data Structure.md",
+    "algorithm/Greedy.md",
+    "algorithm/Implement.md",
     "data_structure/Tree.md",
     "data_structure/Heap.md",
     "data_structure/HashTable.md",
     "data_structure/Btree.md",
-    "algorithm/Greedy.md",
-    "Data Structure.md",
     "data_structure/StackAndQueue.md",
     "image/hashtable.png",
     "image/b-tree1.png",
