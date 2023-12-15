@@ -12,7 +12,7 @@
 
 ## Queue
 
-`Queue` 또한 `Stack`과 마찬가지로 대표적인 선형 자료구조이다. Stack과는 다르게 양쪽 방향이 열려있으며 가장 먼저 저장한 데이터가 가장 먼저 나오는 First In First Out (FIFO) 구조의 자료구조이다. 갸장 먼저 저장한 데이터를 `front`, 가장 마지막에 저장한 데이터를 `rear`라고 한다.
+`Queue` 또한 `Stack`과 마찬가지로 대표적인 선형 자료구조이다. Stack과는 다르게 양쪽 방향이 열려있으며 가장 먼저 저장한 데이터가 가장 먼저 나오는 First In First Out (FIFO) 구조의 자료구조이다. 가장 먼저 저장한 데이터를 `front`, 가장 마지막에 저장한 데이터를 `rear`라고 한다.
 
 
 ![](../image/queue1.png)
