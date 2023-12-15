@@ -161,10 +161,10 @@
   },
   "active": "5138476636993596",
   "lastOpenFiles": [
-    "Algorithm.md",
-    "algorithm/DP.md",
-    "algorithm/DFS_BFS.md",
     "algorithm/Greedy.md",
+    "algorithm/DP.md",
+    "Algorithm.md",
+    "algorithm/DFS_BFS.md",
     "Data Structure.md",
     "image/graph.png",
     "image/bfs.png",
