@@ -54,15 +54,48 @@
 	2
 	5
 
+#### 예제 풀이
+
 이 문제는 `Queue`에서 원소를 제거하고, 제거한 원소가 그 안에서 중요도가 가장 높은 원소가 아니면 삽입하기를 반복해야 한다. 즉, 내가 궁금한 원소의 위치가 계속 변할 수 있다는 점을 주목해야 한다. 
 
 그렇다면 작성될 로직은 다음과 같다.
 
 	 1. Queue에서 원소를 제거 할 때 가장 중요도가 큰지 검사
 	 1.1. 맞다면 제거 순서를 카운트
-	 1.1.1. 이 경우 제걷
+	 1.1.1. 내가 궁금했던 원소었다면 반복문 탈출
 	 1.2. 아닌 경우 다시 rear에 삽입
 	 2. 원소가 제거되었건, 그렇지 않건 Queue는 한 번 땡겨졌으므로 궁금한 원소의 위치를 체크
+
+```python
+import sys  
+from collections import deque  
+  
+T = int(sys.stdin.readline().rstrip())  
+  
+for _ in range(T):  
+    N, M = map(int, sys.stdin.readline().split())  
+    queue = deque(list(map(int, sys.stdin.readline().split())))  
+    count = 0  
+  
+    while queue:  
+        important = max(queue)  
+        top = queue.popleft()  
+  
+        if top == important:  
+            count += 1  
+            if M == 0:  
+                break  
+        else:  
+            queue.append(top)  
+  
+        M -= 1  
+        if M < 0:  
+            M = len(queue) - 1  
+  
+    print(count)
+```
+
+문제 자체는 기초적인 자료구조를 이용한 문제로, 난이도 자체는 어렵지 않으나 여러 조건을 충족해야 하므로 꼼꼼히 문제를 읽고 생각을 정리하는 능력이 요구된다.
 
 ### 풀어보면 좋은 예제
 
