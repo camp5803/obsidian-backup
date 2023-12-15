@@ -210,4 +210,14 @@ print()
 bfs(graph, V, visitedB)
 ```
 
-그나마 이 문제에서 실수를 할만한 부분은 간선을 
+그나마 이 문제에서 실수를 할만한 부분은 간선을 그래프화 하는 부분이다.
+
+```python
+for _ in range(M):
+    x, y = map(int, sys.stdin.readline().split())
+    graph[x].append(y)
+    graph[y].append(x)
+```
+
+반드시 양쪽에 연결을 표시해야 제대로 탐색할 수 있다.
+
