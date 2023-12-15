@@ -55,4 +55,4 @@ dfs(graph, 1, visited)
 
 ## BFS
 
-`BFS`
+`BFS(Breath-First Search, 너비 우선 탐색)`는 그래프에서 가까운 부분부터 우선적으로 탐색하는 알고리즘이다. `DFS`와 다르게 
