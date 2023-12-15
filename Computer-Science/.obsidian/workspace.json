@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Greedy.md",
+                "file": "algorithm/DFS_BFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "algorithm/Divide_Conquer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbe77d081a354eec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/DP.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,14 +185,14 @@
   },
   "active": "5138476636993596",
   "lastOpenFiles": [
-    "Algorithm.md",
-    "algorithm/Divide_Conquer.md",
-    "Data Structure.md",
     "algorithm/DP.md",
-    "algorithm/Implementation.md",
-    "image/dp.png",
-    "algorithm/Greedy.md",
     "algorithm/DFS_BFS.md",
+    "algorithm/Greedy.md",
+    "algorithm/Implementation.md",
+    "algorithm/Divide_Conquer.md",
+    "Algorithm.md",
+    "Data Structure.md",
+    "image/dp.png",
     "image/graph.png",
     "image/bfs.png",
     "image/dfs.png",
