@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "04cc9123b2e1555d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/Implementation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -161,15 +173,15 @@
   },
   "active": "5138476636993596",
   "lastOpenFiles": [
-    "algorithm/Greedy.md",
+    "algorithm/Implementation.md",
     "algorithm/DP.md",
+    "algorithm/Greedy.md",
     "Algorithm.md",
     "algorithm/DFS_BFS.md",
     "Data Structure.md",
     "image/graph.png",
     "image/bfs.png",
     "image/dfs.png",
-    "algorithm/Implementation.md",
     "data_structure/Heap.md",
     "data_structure/HashTable.md",
     "data_structure/StackAndQueue.md",
