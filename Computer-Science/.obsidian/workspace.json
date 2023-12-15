@@ -175,6 +175,7 @@
   "lastOpenFiles": [
     "algorithm/Implementation.md",
     "algorithm/DP.md",
+    "image/dp.png",
     "algorithm/Greedy.md",
     "Algorithm.md",
     "algorithm/DFS_BFS.md",
@@ -199,7 +200,6 @@
     "새 폴더",
     "image/tree.png",
     "image/stack1.png",
-    "image/queue1.png",
     "image",
     "data_structure/List.md",
     "algorithm",

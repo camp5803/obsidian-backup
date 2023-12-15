@@ -105,4 +105,31 @@ print(d[N])
 	44
 	274
 
-일반적인 `DP` 문제의 유형으로, 
+일반적인 `DP` 문제의 유형으로, 주어지는 입력 값 `N`에 따라서 `a(N)`을 구하는 문제다.
+문제의 아이디어는 간단하다. 정수 `N`을 1, 2, 3을 통해서 표현하는 방법의 가지 수를 구해야 하는 문제인데, 인접 항들의 관계와 관련하여 생각하면 간단하게 풀이 할 수 있다. 
+
+![](../image/dp.png)
+
+`N`번째 경우에 마지막에 올 수 있는 숫자는 1, 2, 3 3가지 뿐이고 그 숫자를 막는 경우에는 각각 길이가 `N-1`, `N-2`, `N-3`이 되어 그 경우만 계산하면 풀이할 수 있다. 즉 가장 작은 수에서 시작해서 `N`번 항을 추론하는 방식으로 작성하여 풀이가 가능하다.
+
+이때, 이 아이디어를 수식으로 정리하면 다음과 같다.
+
+$$ a(n) = a(n-1) + a(n-2) + a(n-3) \quad \text{for } n \geq 4 $$
+
+```python
+import sys  
+  
+N = int(sys.stdin.readline().rstrip())  
+case = [int(sys.stdin.readline().rstrip()) for _ in range(N)]  
+  
+memo = [0, 1, 2, 4]  
+  
+if max(case) >= 4:  
+    for i in range(4, max(case) + 1):  
+        memo.append(memo[i - 3] + memo[i - 2] + memo[i - 1])  
+  
+for c in case:  
+    print(memo[c])
+```
+
+이런 아이디어를 떠올리는 능력은 문제를 많이 풀어봐야 기를 수 있기 때문에 꾸준히 문제를 풀어보는 편이 좋다.
