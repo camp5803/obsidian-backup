@@ -41,5 +41,4 @@ def fibo(x):
 ### Top-down (Memoization)
 
 `DP`를 구현하는 방식은 크게 두 개가 있다. 
-
 ### Bottom-up (Tabulation)
