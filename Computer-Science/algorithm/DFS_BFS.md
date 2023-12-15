@@ -221,3 +221,8 @@ for _ in range(M):
 
 반드시 양쪽에 연결을 표시해야 제대로 탐색할 수 있다.
 
+### 풀어보면 좋은 예제
+
+[DFS 스페셜 저지 (Gold 3)](https://www.acmicpc.net/problem/16964)
+
+	많이 어려워용
