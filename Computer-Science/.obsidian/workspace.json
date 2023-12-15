@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Divide_Conquer.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Divide_Conquer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Divide_Conquer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/DP.md"
+                "file": "algorithm/Divide_Conquer.md"
               }
             }
           }
@@ -173,13 +173,14 @@
   },
   "active": "5138476636993596",
   "lastOpenFiles": [
-    "algorithm/Implementation.md",
+    "Algorithm.md",
+    "algorithm/Divide_Conquer.md",
+    "Data Structure.md",
     "algorithm/DP.md",
+    "algorithm/Implementation.md",
     "image/dp.png",
     "algorithm/Greedy.md",
-    "Algorithm.md",
     "algorithm/DFS_BFS.md",
-    "Data Structure.md",
     "image/graph.png",
     "image/bfs.png",
     "image/dfs.png",
