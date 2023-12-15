@@ -2,6 +2,6 @@
 -  [Greedy](/algorithm/Greedy.md)
 -  [Implementation](Implementation.md)
 -  [DFS / BFS](./algorithm/DFS_BFS.md)
--  Dynamic Programming
+-  [Dynamic Programming](./algorithm/DP.md)
 -  Divide and Conquer
 -  Shortest Path

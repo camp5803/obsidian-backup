@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/DFS_BFS.md",
+                "file": "algorithm/DP.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/DFS_BFS.md",
+                "file": "algorithm/DP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/DFS_BFS.md",
+                "file": "algorithm/DP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/DFS_BFS.md"
+                "file": "algorithm/DP.md"
               }
             }
           }
@@ -161,10 +161,11 @@
   },
   "active": "5138476636993596",
   "lastOpenFiles": [
-    "algorithm/Greedy.md",
-    "algorithm/DFS_BFS.md",
-    "Data Structure.md",
     "Algorithm.md",
+    "algorithm/DP.md",
+    "algorithm/DFS_BFS.md",
+    "algorithm/Greedy.md",
+    "Data Structure.md",
     "image/graph.png",
     "image/bfs.png",
     "image/dfs.png",

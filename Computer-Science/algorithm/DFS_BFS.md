@@ -223,6 +223,7 @@ for _ in range(M):
 
 ### 풀어보면 좋은 예제
 
+[토마토 (Gold 5, 그래프 탐색)](https://www.acmicpc.net/problem/7576)
 [DFS 스페셜 저지 (Gold 3)](https://www.acmicpc.net/problem/16964)
 
-	많이 어려워용
+	많이 어려워용 스페셜 저지는 나중에라도 꼭 풀어보기
