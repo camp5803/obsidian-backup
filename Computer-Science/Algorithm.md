@@ -1,6 +1,6 @@
 
 -  [Greedy](/algorithm/Greedy.md)
--  [Implement](./algorithm/Implement.md)
+-  [Implementation](Implementation.md)
 -  Sort
 -  DFS/BFS
 -  Dynamic Programming
