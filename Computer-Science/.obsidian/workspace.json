@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Divide_Conquer.md",
+                "file": "Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/Divide_Conquer.md",
+                "file": "algorithm/DP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/Divide_Conquer.md",
+                "file": "algorithm/DP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/Divide_Conquer.md"
+                "file": "algorithm/DP.md"
               }
             }
           }
@@ -170,14 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4838b75750f0b6d",
+  "active": "bbe77d081a354eec",
   "lastOpenFiles": [
-    "algorithm/DP.md",
-    "algorithm/Divide_Conquer.md",
-    "algorithm/Implementation.md",
-    "Algorithm.md",
-    "image/merge3.png",
     "Data Structure.md",
+    "Algorithm.md",
+    "algorithm/Divide_Conquer.md",
+    "algorithm/DP.md",
+    "algorithm/Implementation.md",
+    "image/merge3.png",
     "image/merge2.png",
     "image/merge1.png",
     "Pasted image 20231216090315.png",
