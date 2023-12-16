@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Implementation.md",
+                "file": "algorithm/DP.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/Implementation.md",
+                "file": "algorithm/DP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/Implementation.md",
+                "file": "algorithm/DP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/Implementation.md"
+                "file": "algorithm/DP.md"
               }
             }
           }
@@ -187,9 +187,9 @@
   "lastOpenFiles": [
     "algorithm/Greedy.md",
     "algorithm/DP.md",
+    "algorithm/Implementation.md",
     "algorithm/Divide_Conquer.md",
     "algorithm/DFS_BFS.md",
-    "algorithm/Implementation.md",
     "data_structure/Btree.md",
     "data_structure/Tree.md",
     "data_structure/StackAndQueue.md",
