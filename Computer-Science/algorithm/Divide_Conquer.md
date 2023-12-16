@@ -40,7 +40,7 @@
 
 **입력**
 
-	첫째 줄에 N(1 ≤ N ≤ 37, N은 3k 꼴)이 주어진다. 다음 N개의 줄에는 N개의 정수로 행렬이 주어진다.
+	첫째 줄에 N(1 ≤ N ≤ 3^7, N은 3k 꼴)이 주어진다. 다음 N개의 줄에는 N개의 정수로 행렬이 주어진다.
 
 **출력**
 
@@ -65,4 +65,46 @@
 	12
 	11
 
-문제 설명을 읽어보면 모두 같은 수가 아니라면, 종이를 9개로 분할하여 다시 검사하도록 명시했다. 그렇다면 각 9개의 종이도 위와 같은 과정을 거치는데, 더 분할 할 수 없는 경우까지 반복하면 된다. (분할 한 결과의 종의아)
+문제 설명을 읽어보면 모두 같은 수가 아니라면, 종이를 9개로 분할하여 다시 검사하도록 명시했다. 그렇다면 각 9개의 종이도 위와 같은 과정을 거치는데, 더 분할 할 수 없는 경우까지 반복하면 된다. (분할 한 결과의 종이의 사이즈가 1인 경우)
+
+```python
+for i in range(x, x + N):  
+    for j in range(y, y + N):  
+        if color != square[i][j]:  
+            for k in range(0, 3):  
+                for l in range(0, 3):  
+                    divide(x + (N // 3 * k), y + (N // 3 * l), N // 3)
+```
+
+코드의 일부인데, 종이를 처음부터 탐색하며 지금 확인하는 원소와 탐색 시작 시 원소를 비교하여 다른 경우에 바로 분할하도록 한다. 
+
+문제 풀이는 아이디어 자체는 매우 간단하고, 분할하여 문제를 풀이하는 방법을 알고 있으면 쉽게 풀이할 수 있다. 
+
+```python
+import sys  
+  
+N = int(sys.stdin.readline().rstrip())  
+square = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]  
+result = []  
+  
+  
+def divide(x, y, N):  
+    color = square[x][y]  
+  
+    for i in range(x, x + N):  
+        for j in range(y, y + N):  
+            if color != square[i][j]:  
+                for k in range(0, 3):  
+                    for l in range(0, 3):  
+                        divide(x + (N // 3 * k), y + (N // 3 * l), N // 3)  
+                return  
+  
+    result.append(color)  
+  
+  
+divide(0, 0, N)  
+print(result.count(-1))  
+print(result.count(0))  
+print(result.count(1))
+```
+
