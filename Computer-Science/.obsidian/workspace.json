@@ -23,12 +23,8 @@
             "id": "bbe77d081a354eec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -122,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -185,8 +177,9 @@
   },
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
-    "algorithm/Divide_Conquer.md",
+    "2023-12-16.md",
     "Algorithm.md",
+    "algorithm/Divide_Conquer.md",
     "나중에 할거.md",
     "Data Structure.md",
     "algorithm/DP.md",
