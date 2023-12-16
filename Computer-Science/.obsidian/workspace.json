@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/DFS_BFS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5138476636993596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "algorithm/Divide_Conquer.md",
                 "mode": "source",
                 "source": false
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,15 +170,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5138476636993596",
+  "active": "e4838b75750f0b6d",
   "lastOpenFiles": [
+    "Algorithm.md",
+    "Data Structure.md",
+    "image/merge2.png",
+    "algorithm/Divide_Conquer.md",
+    "image/merge1.png",
+    "Pasted image 20231216090315.png",
     "algorithm/DP.md",
     "algorithm/DFS_BFS.md",
     "algorithm/Greedy.md",
     "algorithm/Implementation.md",
-    "algorithm/Divide_Conquer.md",
-    "Algorithm.md",
-    "Data Structure.md",
     "image/dp.png",
     "image/graph.png",
     "image/bfs.png",
@@ -207,12 +197,9 @@
     "image/b-tree2.png",
     "data_structure/B+tree.md",
     "etc/~$btree.pptx",
-    "image/bst.png",
     "etc/btree.pptx",
     "etc",
     "새 폴더",
-    "image/tree.png",
-    "image/stack1.png",
     "image",
     "data_structure/List.md",
     "algorithm",
