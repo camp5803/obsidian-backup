@@ -111,3 +111,6 @@ print(result.count(0))
 print(result.count(1))
 ```
 
+### 풀어보면 좋은 예제
+
+[Z (Silver 1)](https://www.acmicpc.net/problem/1074)

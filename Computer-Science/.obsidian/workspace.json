@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "Algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c00c29f5a9635d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/Divide_Conquer.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,13 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04cc9123b2e1555d",
+  "active": "7c00c29f5a9635d7",
   "lastOpenFiles": [
-    "algorithm/Implementation.md",
-    "algorithm/DP.md",
-    "Data Structure.md",
     "Algorithm.md",
+    "Data Structure.md",
+    "나중에 할거.md",
+    "algorithm/DP.md",
     "algorithm/Divide_Conquer.md",
+    "algorithm/Implementation.md",
     "image/merge3.png",
     "image/merge2.png",
     "image/merge1.png",

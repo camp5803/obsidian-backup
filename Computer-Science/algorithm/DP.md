@@ -136,4 +136,4 @@ for c in case:
 
 ### 풀어보면 좋은 예제
 
-[동전 1 (Gold 5)](# https://www.acmicpc.net/problem/2293)
+[동전 1 (Gold 5)](https://www.acmicpc.net/problem/2293)
