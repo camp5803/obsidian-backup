@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Implementation.md",
+                "file": "algorithm/Divide_Conquer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Divide_Conquer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Divide_Conquer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/DP.md"
+                "file": "algorithm/Divide_Conquer.md"
               }
             }
           }
@@ -171,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbe77d081a354eec",
+  "active": "04cc9123b2e1555d",
   "lastOpenFiles": [
+    "algorithm/Implementation.md",
+    "algorithm/DP.md",
     "Data Structure.md",
     "Algorithm.md",
     "algorithm/Divide_Conquer.md",
-    "algorithm/DP.md",
-    "algorithm/Implementation.md",
     "image/merge3.png",
     "image/merge2.png",
     "image/merge1.png",
