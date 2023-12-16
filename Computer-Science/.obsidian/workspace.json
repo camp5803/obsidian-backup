@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나중에 할거.md",
+                "file": "Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "나중에 할거.md",
+                "file": "Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "나중에 할거.md",
+                "file": "Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "나중에 할거.md"
+                "file": "Algorithm.md"
               }
             }
           }
@@ -185,10 +185,10 @@
   },
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
-    "Data Structure.md",
+    "algorithm/Divide_Conquer.md",
     "Algorithm.md",
     "나중에 할거.md",
-    "algorithm/Divide_Conquer.md",
+    "Data Structure.md",
     "algorithm/DP.md",
     "algorithm/DFS_BFS.md",
     "algorithm/Implementation.md",
