@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "data_structure/Heap.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "data_structure/Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "data_structure/Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/Tree.md"
+                "file": "data_structure/Heap.md"
               }
             }
           }
@@ -186,10 +186,10 @@
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
     "Data Structure.md",
+    "data_structure/Tree.md",
     "data_structure/StackAndQueue.md",
     "data_structure/ArrayAndLinkedList.md",
     "Algorithm.md",
-    "data_structure/Tree.md",
     "algorithm/Greedy.md",
     "algorithm/DP.md",
     "algorithm/Implementation.md",

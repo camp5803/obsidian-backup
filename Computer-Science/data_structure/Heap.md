@@ -8,7 +8,7 @@
 ```python
 def push(self, value):
 	self.heap.append(value)
-	self.heapifyUp
+	self.heapifyUp()
 
 def pop(self):
 	root = self.heap[0] // Heap 최소 값을 임시 저장
