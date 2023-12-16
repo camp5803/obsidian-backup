@@ -22,13 +22,13 @@
 
 `Separate chaining(개별 체이닝)`은 위에서 말했던 충돌 상황을 해결하기 위한 방법 중 하나다. 이 방법은 `LinkedList`와 같은 방식으로 데이터를 체이닝하여 충돌을 해결한다.
 
-	예를 들어, separate와 collision이라는 문자열을 해싱했을 때 hash % capacity의 결과가 같다고 해보자. 우선 Hash Table에 ('separate', 1234)와 같이 저장을 한다. 이 때 저장되는 위치를 1번 index 라고 해보자. 
-	
-	이후에 ('collision', 4321)과 같은 데이터를 저장하려고 할 때 마찬가지로 hash % capacity의 결과가 1이고 Hash Table에 저장하고자 할 때 이미 ('separate', 1234)라는 데이터가 저장되어 있음을 알 수 있고 Hash Table은 우선 키 값을 비교한다. (만약 키 값이 같은 경우에는 데이터를 수정하려는 시도기 때문에 Separate chaining이 아니더라도 비교를 하는게 맞다.
-	
-	하지만, 여기서 비교한 결과는 다르고 Hash collision이 일어났음을 알았기에 별개로 데이터를 저장해야 한다. 그래서 사용하는 방식이 해당 해시 버킷에 있는 LinkedList를 이용하여 ('separate', 1234) 뒤에 ('collision', 4321)을 저장하는 것이다.
-	
-	그럼 이후에 이 중복되는 키를 통하여 데이터를 어떻게 조회할지 생각해 볼 수 있는데, 같은 방법으로 데이터를 조회한다. 키 값을 해싱한 이후 indexing하여 바로 값을 가져오는게 아니라 키 값을 먼저 비교해보고 맞는 경우에만 가져오도록 한다. (수정의 경우와 마찬가지로 Separate chaining이 아니더라도 비교를 해야 하는데, Hash collision 문제로 Table에 존재하지 않는 키값이 indexing이 됐을 경우도 존재하기 때문이다.)
+예를 들어, separate와 collision이라는 문자열을 해싱했을 때 hash % capacity의 결과가 같다고 해보자. 우선 Hash Table에 ('separate', 1234)와 같이 저장을 한다. 이 때 저장되는 위치를 1번 index 라고 해보자. 
+
+이후에 ('collision', 4321)과 같은 데이터를 저장하려고 할 때 마찬가지로 hash % capacity의 결과가 1이고 Hash Table에 저장하고자 할 때 이미 ('separate', 1234)라는 데이터가 저장되어 있음을 알 수 있고 Hash Table은 우선 키 값을 비교한다. (만약 키 값이 같은 경우에는 데이터를 수정하려는 시도기 때문에 Separate chaining이 아니더라도 비교를 하는게 맞다.
+
+하지만, 여기서 비교한 결과는 다르고 Hash collision이 일어났음을 알았기에 별개로 데이터를 저장해야 한다. 그래서 사용하는 방식이 해당 해시 버킷에 있는 LinkedList를 이용하여 ('separate', 1234) 뒤에 ('collision', 4321)을 저장하는 것이다.
+
+그럼 이후에 이 중복되는 키를 통하여 데이터를 어떻게 조회할지 생각해 볼 수 있는데, 같은 방법으로 데이터를 조회한다. 키 값을 해싱한 이후 indexing하여 바로 값을 가져오는게 아니라 키 값을 먼저 비교해보고 맞는 경우에만 가져오도록 한다. (수정의 경우와 마찬가지로 Separate chaining이 아니더라도 비교를 해야 하는데, Hash collision 문제로 Table에 존재하지 않는 키값이 indexing이 됐을 경우도 존재하기 때문이다.)
 
 #### Open addressing (Linear probing)
 

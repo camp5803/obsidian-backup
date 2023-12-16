@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "algorithm/Implementation.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "algorithm/Implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/Tree.md",
+                "file": "algorithm/Implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/Tree.md"
+                "file": "algorithm/Implementation.md"
               }
             }
           }
@@ -185,14 +185,21 @@
   },
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
-    "Data Structure.md",
-    "Algorithm.md",
+    "algorithm/Greedy.md",
+    "algorithm/DP.md",
     "algorithm/Divide_Conquer.md",
     "algorithm/DFS_BFS.md",
-    "algorithm/Greedy.md",
     "algorithm/Implementation.md",
+    "data_structure/Btree.md",
+    "data_structure/Tree.md",
+    "data_structure/StackAndQueue.md",
+    "data_structure/HashTable.md",
+    "data_structure/ArrayAndLinkedList.md",
+    "image/b-tree2.png",
+    "image/b-tree1.png",
+    "Data Structure.md",
+    "Algorithm.md",
     "나중에 할거.md",
-    "algorithm/DP.md",
     "image/merge3.png",
     "image/merge2.png",
     "image/merge1.png",
@@ -202,13 +209,6 @@
     "image/bfs.png",
     "image/dfs.png",
     "data_structure/Heap.md",
-    "data_structure/HashTable.md",
-    "data_structure/StackAndQueue.md",
-    "data_structure/ArrayAndLinkedList.md",
-    "data_structure/Btree.md",
-    "data_structure/Tree.md",
-    "image/hashtable.png",
-    "image/b-tree1.png",
     "data_structure/B+tree.md",
     "etc/~$btree.pptx",
     "etc/btree.pptx",
