@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/Btree.md",
+                "file": "Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/Btree.md",
+                "file": "Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/Btree.md",
+                "file": "Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/Btree.md"
+                "file": "Algorithm.md"
               }
             }
           }
@@ -186,17 +186,17 @@
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
     "Data Structure.md",
+    "Algorithm.md",
+    "data_structure/Btree.md",
     "data_structure/Heap.md",
     "data_structure/Tree.md",
     "data_structure/StackAndQueue.md",
     "data_structure/ArrayAndLinkedList.md",
-    "Algorithm.md",
     "algorithm/Greedy.md",
     "algorithm/DP.md",
     "algorithm/Implementation.md",
     "algorithm/Divide_Conquer.md",
     "algorithm/DFS_BFS.md",
-    "data_structure/Btree.md",
     "data_structure/HashTable.md",
     "image/b-tree2.png",
     "image/b-tree1.png",
