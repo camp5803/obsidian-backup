@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm.md",
+                "file": "data_structure/Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/Divide_Conquer.md",
+                "file": "algorithm/Implementation.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/Divide_Conquer.md",
+                "file": "data_structure/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/Divide_Conquer.md",
+                "file": "data_structure/Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/Divide_Conquer.md"
+                "file": "data_structure/Tree.md"
               }
             }
           }
@@ -183,20 +183,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c00c29f5a9635d7",
+  "active": "bbe77d081a354eec",
   "lastOpenFiles": [
-    "Algorithm.md",
     "Data Structure.md",
+    "Algorithm.md",
+    "algorithm/Divide_Conquer.md",
+    "algorithm/DFS_BFS.md",
+    "algorithm/Greedy.md",
+    "algorithm/Implementation.md",
     "나중에 할거.md",
     "algorithm/DP.md",
-    "algorithm/Divide_Conquer.md",
-    "algorithm/Implementation.md",
     "image/merge3.png",
     "image/merge2.png",
     "image/merge1.png",
     "Pasted image 20231216090315.png",
-    "algorithm/DFS_BFS.md",
-    "algorithm/Greedy.md",
     "image/dp.png",
     "image/graph.png",
     "image/bfs.png",
