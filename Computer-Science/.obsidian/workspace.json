@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structure/ArrayAndLinkedList.md",
+                "file": "data_structure/Btree.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structure/ArrayAndLinkedList.md",
+                "file": "data_structure/Btree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structure/ArrayAndLinkedList.md",
+                "file": "data_structure/Btree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structure/ArrayAndLinkedList.md"
+                "file": "data_structure/Btree.md"
               }
             }
           }
@@ -185,21 +185,21 @@
   },
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
+    "Data Structure.md",
+    "data_structure/Heap.md",
     "data_structure/Tree.md",
-    "data_structure/Btree.md",
     "data_structure/StackAndQueue.md",
     "data_structure/ArrayAndLinkedList.md",
     "data_structure/HashTable.md",
+    "data_structure/Btree.md",
     "2023-12-16.md",
     "Algorithm.md",
     "algorithm/Divide_Conquer.md",
     "나중에 할거.md",
-    "Data Structure.md",
     "algorithm/DP.md",
     "algorithm/DFS_BFS.md",
     "algorithm/Implementation.md",
     "algorithm/Greedy.md",
-    "data_structure/Heap.md",
     "image/b-tree2.png",
     "image/b-tree1.png",
     "image/merge3.png",
