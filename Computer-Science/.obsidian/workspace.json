@@ -23,8 +23,12 @@
             "id": "bbe77d081a354eec",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "data_structure/ArrayAndLinkedList.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -118,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "data_structure/ArrayAndLinkedList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "data_structure/ArrayAndLinkedList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "data_structure/ArrayAndLinkedList.md"
+              }
             }
           }
         ]
@@ -178,6 +186,10 @@
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
     "data_structure/Tree.md",
+    "data_structure/Btree.md",
+    "data_structure/StackAndQueue.md",
+    "data_structure/ArrayAndLinkedList.md",
+    "data_structure/HashTable.md",
     "2023-12-16.md",
     "Algorithm.md",
     "algorithm/Divide_Conquer.md",
@@ -187,11 +199,7 @@
     "algorithm/DFS_BFS.md",
     "algorithm/Implementation.md",
     "algorithm/Greedy.md",
-    "data_structure/HashTable.md",
-    "data_structure/Btree.md",
     "data_structure/Heap.md",
-    "data_structure/StackAndQueue.md",
-    "data_structure/ArrayAndLinkedList.md",
     "image/b-tree2.png",
     "image/b-tree1.png",
     "image/merge3.png",
