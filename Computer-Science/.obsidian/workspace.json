@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Shortest_path.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Shortest_path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/DP.md",
+                "file": "algorithm/Shortest_path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/DP.md"
+                "file": "algorithm/Shortest_path.md"
               }
             }
           }
@@ -185,18 +185,19 @@
   },
   "active": "bbe77d081a354eec",
   "lastOpenFiles": [
+    "Algorithm.md",
+    "data_structure/Tree.md",
+    "algorithm/Shortest_path.md",
+    "algorithm/DP.md",
     "data_structure/Btree.md",
     "data_structure/StackAndQueue.md",
     "data_structure/HashTable.md",
     "data_structure/Heap.md",
-    "data_structure/Tree.md",
     "data_structure/ArrayAndLinkedList.md",
     "Data Structure.md",
     "2023-12-16.md",
-    "Algorithm.md",
     "algorithm/Divide_Conquer.md",
     "나중에 할거.md",
-    "algorithm/DP.md",
     "algorithm/DFS_BFS.md",
     "algorithm/Implementation.md",
     "algorithm/Greedy.md",
